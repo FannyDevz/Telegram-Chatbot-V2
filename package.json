@@ -1,0 +1,25 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "telegram chatbot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "bot": "node index.js"
+  },
+  "keywords": [
+    "chatbot",
+    "telegram"
+  ],
+  "author": "fanny",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "lowline.ai": "^1.0.18",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.2",
+    "node-telegram-bot-api": "^0.64.0",
+    "nodemon": "^3.1.0"
+  }
+}
